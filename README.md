@@ -1,25 +1,11 @@
-# Hi, I'm Gyure Kim
+# Gyure Kim
 
-Welcome to my GitHub profile.
+Incoming PhD student at Washington University in St. Louis, starting August 2026.
 
-## About Me
+I am currently an M.A. student in Economics at Sungkyunkwan University. My research interests are applied econometrics, causal inference, policy evaluation, and high-dimensional econometrics.
 
-- I enjoy building useful software and learning new technologies.
-- I am currently working on personal projects and improving my development skills.
-- I like clean code, practical tools, and thoughtful user experiences.
-
-## Tech Interests
-
-- Web development
-- Python and JavaScript
-- Automation
-- Open source projects
-
-## Projects
-
-I will add selected projects here as I build and publish them.
-
-## Contact
-
+- Research introduction: `research.html`
+- CV: `cv.html`
+- Email: kimkyokkr77@g.skku.edu
 - GitHub: [@gyurekim6508](https://github.com/gyurekim6508)
 

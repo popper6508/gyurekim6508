@@ -73,7 +73,7 @@ main {
   margin: 0 auto;
 }
 
-.hero {
+.home-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.75fr);
   gap: clamp(28px, 5vw, 72px);
@@ -107,6 +107,11 @@ h2 {
 h1 {
   margin-bottom: 18px;
   font-size: clamp(3.2rem, 8vw, 6.7rem);
+}
+
+.page-hero h1 {
+  max-width: 960px;
+  font-size: clamp(2.7rem, 6vw, 5.4rem);
 }
 
 h2 {
@@ -172,6 +177,10 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.profile-panel.compact {
+  align-self: start;
+}
+
 .portrait {
   display: grid;
   place-items: center;
@@ -209,6 +218,11 @@ dd {
 .section {
   padding: 72px 0;
   border-top: 1px solid var(--line);
+}
+
+.page-hero {
+  padding: clamp(52px, 8vw, 100px) 0 54px;
+  border-bottom: 1px solid var(--line);
 }
 
 .section-heading {
@@ -321,6 +335,67 @@ dd {
   color: #ffffff;
 }
 
+.cv-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 28px;
+  align-items: end;
+}
+
+.cv-links {
+  min-width: 260px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.cv-links a {
+  color: var(--accent-dark);
+}
+
+.cv-section {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.32fr) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 60px);
+  padding: 42px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cv-section h2 {
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+}
+
+.cv-section > p {
+  color: var(--muted);
+}
+
+.cv-list {
+  display: grid;
+  gap: 22px;
+}
+
+.cv-list article {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.24fr) minmax(0, 1fr);
+  gap: 18px;
+}
+
+.cv-list h3 {
+  margin-bottom: 4px;
+}
+
+.cv-list p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.cv-list .date {
+  color: var(--accent-dark);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 footer {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
@@ -339,13 +414,15 @@ footer {
     justify-content: flex-start;
   }
 
-  .hero,
+  .home-hero,
   .split,
-  .contact-band {
+  .contact-band,
+  .cv-head,
+  .cv-section {
     grid-template-columns: 1fr;
   }
 
-  .hero {
+  .home-hero {
     min-height: auto;
   }
 
@@ -356,6 +433,11 @@ footer {
   .research-grid,
   .timeline {
     grid-template-columns: 1fr;
+  }
+
+  .cv-list article {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 }
 
