@@ -7,5 +7,4 @@ I am currently an M.A. student in Economics at Sungkyunkwan University. My resea
 - Research introduction: `research.html`
 - CV: `cv.html`
 - Email: kimkyokkr77@g.skku.edu
-- GitHub: [@gyurekim6508](https://github.com/gyurekim6508)
-
+- GitHub: [@popper6508](https://github.com/popper6508)
