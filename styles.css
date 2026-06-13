@@ -181,6 +181,17 @@ h3 {
   align-self: start;
 }
 
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: 50% 18%;
+  background: var(--soft);
+}
+
 .portrait {
   display: grid;
   place-items: center;
@@ -263,10 +274,35 @@ dd {
 
 .work-item {
   display: grid;
-  grid-template-columns: 72px 1fr;
+  grid-template-columns: 92px 1fr;
   gap: 20px;
   padding-bottom: 22px;
   border-bottom: 1px solid var(--line);
+}
+
+.research-paper {
+  padding-bottom: 30px;
+}
+
+.research-paper h3 {
+  max-width: 760px;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+.research-paper .authors {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.abstract {
+  max-width: 820px;
+  margin-top: 12px;
+}
+
+.abstract-label {
+  color: var(--ink);
+  font-weight: 800;
 }
 
 .year {
